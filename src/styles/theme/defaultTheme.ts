@@ -1,8 +1,9 @@
 export const defaultTheme = {
   colors: {
+    "white": "#FFFFFF",
     "text-primary": "#202020",
-    "text-secunday": "#FFFFFF",
     "background-color": "#FBFBFB",
+    "black-background": "#242424",
     "gray-board": "#CCCCCC",
     "gradient-primary":
       "linear-gradient(270deg, rgba(216,53,197,1) 0%, rgba(161,31,241,1) 100%);",
