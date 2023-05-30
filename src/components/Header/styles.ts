@@ -12,7 +12,7 @@ export const HeaderContainer = styled.header`
   left: 0;
 
   img {
-    width: 186px;
+    width: 146px;
     height: 54px;
   }
 `;
