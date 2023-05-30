@@ -11,6 +11,12 @@ export const GlobalStyles = createGlobalStyle`
         background: ${({ theme }) => theme.colors["background-color"]};
     }
 
+    body, input, textarea, button {
+    font: 400 ${({ theme }) =>
+      theme.textSizes["text-text-m"]} 'Open sans', sans-serif;
+      line-height: 160%;
+  }
+
     button {
         cursor: pointer
     }
