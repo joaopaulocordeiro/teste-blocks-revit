@@ -5,7 +5,6 @@ export const HeaderHomeContainer = styled.div`
   height: 5.875rem;
   background-color: ${({ theme }) => theme.colors["background-color"]};
   display: flex;
-  padding: 29px 199px 29px 199px;
   position: relative;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
 
@@ -21,6 +20,7 @@ export const HeaderHomeContainer = styled.div`
 `;
 
 export const TitleHomeHeaderContainer = styled.div`
+  margin: 29px 5%;
   background-image: ${({ theme }) => theme.colors["gradient-primary"]};
   background-size: 30% 4px;
   background-position: left bottom;
@@ -28,5 +28,9 @@ export const TitleHomeHeaderContainer = styled.div`
   
   h1 {
     font-size: 1.75rem;
+  }
+
+  @media (min-width: 768px) {
+    margin: 29px 199px;
   }
 `;
