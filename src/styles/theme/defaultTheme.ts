@@ -3,6 +3,7 @@ export const defaultTheme = {
     "base-white": "#FFFFFF",
     "text-primary": "#202020",
     "background-color": "#FBFBFB",
+    "background-footer": "#e9e9e9",
     "black-background": "#242424",
     "gray-board": "#CCCCCC",
     "gradient-primary":

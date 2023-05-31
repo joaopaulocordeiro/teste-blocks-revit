@@ -11,6 +11,16 @@ export function Home() {
         <CardGridContainer>
           <Card />
           <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
         </CardGridContainer>
       </HomeContainer>
     </>
