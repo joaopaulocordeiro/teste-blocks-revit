@@ -13,6 +13,8 @@ export const CardContainer = styled.div`
 
   img {
     margin: 25px 40px 25px 40px;
+    width: auto;
+  height: 55%;
   }
 `;
 

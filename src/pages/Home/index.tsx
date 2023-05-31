@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import axios from "axios";
+import { api } from "../../lib/axios";
 import { Card } from "./components/Card";
 import { HeaderHome } from "./components/HeaderHome";
 import { CardGridContainer, HomeContainer } from "./styles";
@@ -18,7 +19,6 @@ const TAKE = 10;
 
 export function Home() {
   const [families, setFamilies] = useState<Family[]>([]);
-  console.log("fam", families)
   const [currentPage, setCurrentPage] = useState<number>(0);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [isObserving, setIsObserving] = useState<boolean>(false);
@@ -42,7 +42,7 @@ export function Home() {
       const response = await axios.get<Family[]>(
         `${API_URL}?skip=${skip}&take=${TAKE}`
       );
-  
+
       if (families.length > 0) {
         const lastLoadedId = families[families.length - 1].id;
         const newFamilies = response.data.filter(
@@ -52,7 +52,7 @@ export function Home() {
       } else {
         setFamilies(response.data);
       }
-  
+
       setIsLoading(false);
     } catch (error) {
       console.error("Error fetching data:", error);
@@ -98,8 +98,8 @@ export function Home() {
         <p>Resultados</p>
         <CardGridContainer>
           {families.map((item) => (
-            <div key={item.id} >
-              <Card family={item}/>
+            <div key={item.id}>
+              <Card family={item} />
             </div>
           ))}
         </CardGridContainer>
