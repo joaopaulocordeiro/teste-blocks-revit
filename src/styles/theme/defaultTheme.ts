@@ -7,7 +7,7 @@ export const defaultTheme = {
     "black-background": "#242424",
     "gray-board": "#CCCCCC",
     "gradient-primary":
-      "linear-gradient(270deg, rgba(216,53,197,1) 0%, rgba(161,31,241,1) 100%);",
+      " linear-gradient(90deg, rgba(161, 28, 243, 0.6) 0%, rgba(216, 53, 197, 0.6) 100%);",
   },
   textSizes: {
     "title-title-l": "1.625rem",

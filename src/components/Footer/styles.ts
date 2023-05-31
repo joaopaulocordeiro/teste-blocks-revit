@@ -8,7 +8,7 @@ export const FooterContainer = styled.footer`
   justify-content: center;
   align-items: center;
   bottom: 0;
-  position: fixed;
+ 
 
   @media (max-width: 768px) {
     height: 160px;
