@@ -13,11 +13,7 @@ export const ButtonContainer = styled.button`
   z-index: 1;
   font-size: ${({ theme }) => theme.textSizes["text-text-m"]};
   cursor: pointer;
-  background: linear-gradient(
-    to right,
-    #a11cf3 0%,
-    #d835c5 100%
-  );
+  background: linear-gradient(to right, #a11cf3 0%, #d835c5 100%);
 
   &:before,
   &:after {
