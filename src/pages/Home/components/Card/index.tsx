@@ -1,18 +1,23 @@
 import { ArrowUpRight } from "phosphor-react";
+import cardImage from "../../../../assets/card-image.png";
+import { Family } from "../..";
 import {
   CardContainer,
   FooterContainer,
   IconContainer,
   VerticalLine,
 } from "./styles";
-import cardImage from "../../../../assets/card-image.png";
 
-export function Card() {
+interface CardProps {
+  family: Family;
+}
+
+export function Card({ family }: CardProps) {
   return (
     <CardContainer>
       <img src={cardImage} alt="" />
       <FooterContainer>
-        <span>Lorem Ipsum is sLorem Ipsum is simply ....</span>
+        <span>{family.details.description}</span>
         <VerticalLine />
         <IconContainer>
           <ArrowUpRight size={19} />
