@@ -1,5 +1,6 @@
+import { Card } from "./components/Card";
 import { HeaderHome } from "./components/HeaderHome";
-import { HomeContainer } from "./styles";
+import { CardGridContainer, HomeContainer } from "./styles";
 
 export function Home() {
   return (
@@ -7,6 +8,10 @@ export function Home() {
       <HeaderHome />
       <HomeContainer>
         <p>Resultados</p>
+        <CardGridContainer>
+          <Card />
+          <Card />
+        </CardGridContainer>
       </HomeContainer>
     </>
   );
