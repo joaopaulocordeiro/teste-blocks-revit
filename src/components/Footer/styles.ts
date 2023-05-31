@@ -19,6 +19,8 @@ export const FooterContainer = styled.footer`
   }
 `;
 
+
+
 export const FooterLink = styled.a`
   margin: 0 18px;
   font-size: 16px;

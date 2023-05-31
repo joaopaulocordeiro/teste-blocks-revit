@@ -13,14 +13,6 @@ export function Home() {
           <Card />
           <Card />
           <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
         </CardGridContainer>
       </HomeContainer>
     </>
