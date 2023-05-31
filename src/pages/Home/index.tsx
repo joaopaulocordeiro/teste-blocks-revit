@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from "react";
 import axios from "axios";
-import { api } from "../../lib/axios";
 import { Card } from "./components/Card";
 import { HeaderHome } from "./components/HeaderHome";
 import { CardGridContainer, HomeContainer } from "./styles";
