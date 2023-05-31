@@ -25,12 +25,18 @@ export const TitleHomeHeaderContainer = styled.div`
   background-size: 30% 4px;
   background-position: left bottom;
   background-repeat: no-repeat;
-  
+
   h1 {
     font-size: 1.75rem;
   }
 
   @media (min-width: 768px) {
     margin: 29px 199px;
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
   }
 `;

@@ -14,5 +14,10 @@ export const HeaderContainer = styled.header`
   img {
     width: 146px;
     height: 54px;
+
+    @media (max-width: 768px) {
+      width: 91px;
+      height: 34px;
+    }
   }
 `;
