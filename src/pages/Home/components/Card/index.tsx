@@ -1,5 +1,4 @@
 import { ArrowUpRight } from "phosphor-react";
-import cardImage from "../../../../assets/card-image.png";
 import { Family } from "../..";
 import {
   CardContainer,

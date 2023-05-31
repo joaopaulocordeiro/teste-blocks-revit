@@ -8,10 +8,9 @@ export const FooterContainer = styled.footer`
   justify-content: center;
   align-items: center;
   bottom: 0;
- 
 
   @media (max-width: 768px) {
-    height: 160px;
+    height: 180px;
     flex-direction: column;
     align-items: flex-start;
     padding: 14px;

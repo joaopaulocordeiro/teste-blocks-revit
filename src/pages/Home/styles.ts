@@ -27,7 +27,7 @@ export const HomeContainer = styled.div`
 
 export const CardGridContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 16px;
 
   @media (max-width: 1024px) {
